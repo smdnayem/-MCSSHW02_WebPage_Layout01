@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.menu {
+  margin-top: 20px;
+  background-color: rgb(233, 233, 233);
+  color: gray;
+  width: 100%;
+  height: 40px;
+}
+.menu ul {
+  list-style: none;
+  background-color: none;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: none;
+}
+
+.menu input {
+  margin: -34px 10px 0 0;
+  padding: 5px 10px;
+  float: right;
+}
+.headerImage {
+  width: 100%;
+  margin: 10px 0;
+}
+.headerImage img {
+  width: 98%;
+  border: 7px solid white;
+}
+.ImgGallery {
+  width: 100%;
+  margin-right: 5px;
+  padding: 5px;
+  background-color: lightgray;
+}
+.ig {
+  width: 24%;
+  height: 80px;
+  display: inline-block;
+}
+.ig img {
+  width: 100%;
+  height: 100%;
+}
+.ig p {
+  font-size: 11px;
+  text-align: justify;
+}
+.more {
+  float: right;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: whitesmoke;
+  margin-top: 15px;
+  font-size: 11px;
+}
+.footLeft {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.footRight {
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+.footLeft a {
+  float: Left;
+  padding: 5px;
+  color: gray;
+  text-decoration: none;
+}
+.footRight a {
+  float: right;
+  padding: 5px;
+  color: gray;
+  text-decoration: none;
+}
